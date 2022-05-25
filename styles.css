@@ -111,49 +111,64 @@ body {
     width: 150px;
 }
 
-.quote {
+.quote_1 {
     background-color: #E5E7EB;
     color: #1f2937;
     display: flex;
-    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 75px;
-}
+    padding-top: 75px;
+    }
 
 .quote_text {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
     font-family: 'trebuchet MS';
+    margin: 0px 500px;
+    text-align: justify;
+
+}
+
+.quote_2 {
+    background-color: #E5E7EB;
+    color: #1f2937;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-bottom: 75px;
 }
 
 .quote_signature {
     font-size: 24px;
     font-weight: bold;
-    text-align: right;
+    margin: 0px 500px;
+    margin-top: 25px;
 }
 
 .contact_outter {
-    color: #f9faf8;
-    background-color: #3882F6;
-    border-radius: 10px;
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: space-evenly;
-    margin: 75px 250px;
-
+    justify-content: center
 }
 
 .contact {
     display: flex;
-    flex-direction: column;
+    color:#f9faf8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 30px 60px;
+    gap: 50px;
 }
 
 .contact_maintext {
     font-weight: bold;
+}
+
+.contact_subtext {
+    font-size: small;
 }
 
 .button_signup_bottom {
@@ -172,3 +187,7 @@ body {
     align-items: center;
     padding: 20px;
 }
+
+/* * {
+    border: 2px solid red;
+} */
