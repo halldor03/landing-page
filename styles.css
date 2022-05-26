@@ -118,7 +118,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 75px;
+    padding-top: 50px;
     }
 
 .quote_text {
@@ -137,7 +137,7 @@ body {
     display: flex;
     justify-content: right;
     align-items: center;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
 }
 
 .quote_signature {
@@ -160,6 +160,7 @@ body {
     background-color: #3882F6;
     border-radius: 10px;
     padding: 30px 60px;
+    margin: 50px;
     gap: 50px;
 }
 
